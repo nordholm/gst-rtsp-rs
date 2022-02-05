@@ -1,0 +1,14 @@
+[package]
+name = "gst-rtsp-rs"
+version = "0.1.0"
+authors = ["nordholm"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+anyhow = "1.0.52"
+derive_more = "0.99.17"
+gstreamer-rtsp-server = "0.17.2"
+glib = "0.14.8"
+gstreamer = "0.17.4"
